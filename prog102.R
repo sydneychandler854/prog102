@@ -49,8 +49,8 @@ plot_kefj(Aialik_day_datetime, Aialik_day_temperature, Aialik_day_exposure)
 # P4: Make a copy of your code from P3 and edit it to plot the temperature and
 # exposure for "Harris" on 2016-04-05.
 site <- "Harris"
-Harris_day_start <- as.POSIXct("2012-06-01 00:00:00", tz = "Etc/GMT+8")
-Harris_day_end <- as.POSIXct("2012-06-01 23:59:59", tz = "Etc/GMT+8")
+Harris_day_start <- as.POSIXct("2016-04-05 00:00:00", tz = "Etc/GMT+8")
+Harris_day_end <- as.POSIXct("2016-04-05 23:59:59", tz = "Etc/GMT+8")
 Harris_day_idx <- kefj_site == "Harris" &
   kefj_datetime >= Harris_day_start &
   kefj_datetime <= Harris_day_end
